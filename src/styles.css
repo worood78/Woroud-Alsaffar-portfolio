@@ -1,12 +1,14 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #fbfafc;
+  --primary-color: #788f8f;
+  --secondary-color: #f9f8fa;
+  --soft-color: #e3f6f5;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin: 60px auto;
   max-width: 800px;
+  background-color: var(--soft-color);
 }
 
 h1,
@@ -76,4 +78,14 @@ p {
 }
 .navbar-brand {
   font-weight: bolder;
+}
+.app-link {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
